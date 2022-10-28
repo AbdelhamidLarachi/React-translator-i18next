@@ -1,3 +1,5 @@
+# React-translator-i18next
+
 [![GitHub license](https://img.shields.io/github/license/AbdelhamidLarachi/React-translator-i18next)](https://github.com/AbdelhamidLarachi/React-translator-i18next/blob/master/LICENSE) ![GitHub license](https://img.shields.io/github/issues/AbdelhamidLarachi/React-translator-i18next)
 
 ***Open-Source*** project made to ***auto translate*** react  apps using ***i18next***, this project should ***extract***, ***translate*** and ***replace*** your components texts, then ***generates*** the Json language file. 
