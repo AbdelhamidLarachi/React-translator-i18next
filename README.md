@@ -13,8 +13,6 @@
 
 ## Installation
 
-React has been designed for gradual adoption from the start, and **you can use as little or as much React as you need**:
-
 * set your default project path in src/directory. `Desktop/project` by default ( don't forget to make a project copy ).
 * Run `npm install` then >  `npm start` 
 * Check your `project/langs` folder for json files
