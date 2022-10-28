@@ -7,15 +7,16 @@
 
 ## Works as follows : 
 
--   **Extract text from components / props / yup :** nothing to write here, you can just go to the next part,  so it feels like a description.
--   **Convert JSX / TSX files to i18n hook :** by replacing theses texts with your i18n hook function, adding imports, and initializing hooks.
+- **Extract text from components / props / yup :** nothing to write here, you can just go to the next part,  so it feels like a description.
+- **Convert JSX / TSX files to i18n hook :** by replacing theses texts with your i18n hook function, adding imports, and initializing hooks.
 - **Translate detected texts :** deepl api was used for translating part, you just need to set your free api key on the .env file.
 - **Generate JSON language file:** it should generate the final json files for the languages you've selected.
 
 
 ## Installation
 
-* Set your default project path in src/directory. `Desktop/project` by default ( don't forget to make a project copy ).
+* Set your default project path in src/directory.ts. `Desktop/project` by default ( don't forget to make a project copy ).
+* Select your target languages in `src/translate.ts`, by default it's ['en-US', 'fr'];
 * Create .env file with `AUTH_KEY` value (deepl api key)
 * Run `npm install` then >  `npm start` 
 * Check your `project/langs` folder for json files
