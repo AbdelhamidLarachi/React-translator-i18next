@@ -36,7 +36,7 @@ class Main {
 
         console.log("\ntranslating...");
         // translate *
-       // Translate.fetch(this.toTranslate);
+        Translate.fetch(this.toTranslate);
     }
 }
 

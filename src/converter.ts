@@ -166,7 +166,7 @@ class Converter {
 
     private getPropertyName = (phrase: string): ITranslateObject => {
 
-        // Remove single, double, or curly quotation marks from string
+        // Remove single, double, or quotation marks from string
         phrase = phrase
             .trim()
             .replace(/['‘’"“”]/g, '')
@@ -185,7 +185,7 @@ class Converter {
 
 
     /** 
-    * check if prop is placeholder not a label
+    * check if prop is placeholder / label / title
     * @returns prop name
     * */
 
@@ -440,7 +440,6 @@ class Converter {
 
         // get index of func & the next line break index
         const func = (this.jsx.match(DEFAULT_FUNC_START_REGEX) || [])[0];
-
         if (!func) return;
 
         const dfIndex = this.jsx.indexOf(func);

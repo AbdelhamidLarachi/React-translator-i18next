@@ -13,7 +13,8 @@
 
 ## Installation
 
-* set your default project path in src/directory. `Desktop/project` by default ( don't forget to make a project copy ).
+* Set your default project path in src/directory. `Desktop/project` by default ( don't forget to make a project copy ).
+* Create .env file with `AUTH_KEY` value (deepl api key)
 * Run `npm install` then >  `npm start` 
 * Check your `project/langs` folder for json files
 * Your JSX / TSX files should be translated now.
