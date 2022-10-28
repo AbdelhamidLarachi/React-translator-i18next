@@ -1,4 +1,4 @@
-# React-translator-i18next
+[![GitHub license](https://img.shields.io/github/license/AbdelhamidLarachi/React-translator-i18next)](https://github.com/AbdelhamidLarachi/React-translator-i18next/blob/master/LICENSE) ![GitHub license](https://img.shields.io/github/issues/AbdelhamidLarachi/React-translator-i18next)
 
 ***Open-Source*** project made to ***auto translate*** react  apps using ***i18next***, this project should ***extract***, ***translate*** and ***replace*** your components texts, then ***generates*** the Json language file. 
 
@@ -12,6 +12,8 @@
 
 
 ## Installation
+
+React has been designed for gradual adoption from the start, and **you can use as little or as much React as you need**:
 
 * set your default project path in src/directory. `Desktop/project` by default ( don't forget to make a project copy ).
 * Run `npm install` then >  `npm start` 
