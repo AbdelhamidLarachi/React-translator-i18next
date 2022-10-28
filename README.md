@@ -15,8 +15,8 @@
 
 ## Installation
 
-* Set your default project path in src/directory.ts. `Desktop/project` by default ( don't forget to make a project copy ).
-* Select your target languages in `src/translate.ts`, by default it's ['en-US', 'fr'];
+* Set your default project path in ` src/directory.ts`. `Desktop/project` by default ( don't forget to make a project copy ).
+* Select your target languages in `src/translate.ts`, by default it's `['en-US', 'fr']`
 * Create .env file with `AUTH_KEY` value (deepl api key)
 * Run `npm install` then >  `npm start` 
 * Check your `project/langs` folder for json files
