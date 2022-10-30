@@ -7,9 +7,9 @@
 
 ## Works as follows : 
 
-- **Extract text from components / props / yup :** nothing to write here, you can just go to the next part,  so it feels like a description.
-- **Convert JSX / TSX files to i18n hook :** by replacing theses texts with your i18n hook function, adding imports, and initializing hooks.
-- **Translate detected texts :** deepl api was used for translating part, you just need to set your free api key on the .env file.
+- **Extract text from components / props / yup :** extract text from `components with no children`, props like `placeholder`, `label`, `title`..., `snackbars`, and every text in `yup schemas`.
+- **Convert JSX / TSX files to i18n hook :** by replacing theses texts with your i18n hook function, adding imports, and initializing hooks ex: from `text` to `{t(text)}`.
+- **Translate detected texts :** deepl api was used for translating part, you just need to set your `free api key` on the .env file.
 - **Generate JSON language file:** it should generate the final json files for the languages you've selected.
 
 
