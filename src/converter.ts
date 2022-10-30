@@ -236,8 +236,9 @@ class Converter {
                 if (variables) isVariable = variables?.includes(`{${phrase}}`);
 
                 // ignore bad variable cuts
-                if (Helper.isOdd(Helper.countOccurence(phrase, '{'))) continue;
-                if (Helper.isOdd(Helper.countOccurence(phrase, '}'))) continue;
+                if (Helper.isOdd(
+                    Helper.countOccurence(phrase, '{') +
+                    Helper.countOccurence(phrase, '}'))) continue;
 
                 // extra check for arrow functions or child components conflicts
                 if (phrase.includes('<') || phrase.includes('>')) continue;
