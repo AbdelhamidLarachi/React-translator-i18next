@@ -175,6 +175,9 @@ class Converter {
             .trim()
             // replace spaces with underscore 
             .replace(/\s/g, '_')
+            .split(':')
+            // replace two dots with underscore 
+            .join('_');
 
         return {
             phrase,
